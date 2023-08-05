@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Roboto:wght@100;300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    display:flex;
+   
+    
+}
+
+.content{
+    padding:10px;
+    background-color: black;
+    height:100vh;
+    width:50%;
+}
+
+.title{
+    color:#575A85;
+    font-size: 40px;
+    padding:10px;
+}
+
+.para{
+    color:#B8BCCC;
+    padding:10px;
+}
+
+.img{
+    
+    justify-content: center;
+    padding:10px;
+    display: flex;
+}
+
+.img div{
+    margin: auto;
+}
+
+img{
+    width:fit-content;
+    padding: 5px;
+}
+
+
+
+.info{
+    background-color: #575A85;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100vh;
+    width:50%;
+}
+
+#ip-address{
+    width:100%;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    align-items: end;
+    padding: 10px;
+}
+
+#ip-address div{
+    padding:3px;
+}
+
+.button{
+    width:420px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid #B8BCCC;
+    padding:2px;
+    width:70%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+    color:#B8BCCC;
+}

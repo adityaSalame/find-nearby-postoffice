@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Roboto:wght@100;300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    z-index: 0;
+    
+}
+
+.info{
+    width:100%;
+    padding:10px;
+    background-color: black;
+    font-size: 18px;
+}
+
+.label{
+    color:#5C5E66;
+}
+
+.label-info{
+    color:#B8BCCC;
+    padding-left: 4px;
+}
+
+.iframe{
+    width:100%;
+    background-color: #575A85;
+    color:#B8BCCC;
+    
+    justify-content: center;
+}
+
+.iframe-title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    color:#B8BCCC;
+    background-color: #575A85;
+}
+
+iframe{
+    width:60%;
+    height:400px;
+    margin:20px 20%;
+    border: 1px solid #B8BCCC;
+}
+
+
+
+
+
+.moreinfo-title, .neartitle{
+    color:#B8BCCC;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.more-info, .nearby{
+    background-color: black;
+}
+
+.other-info{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    font-size: 18px;
+}
+
+img{
+    
+    filter: grayscale(10);
+    height:20px;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+
+
+.search-container{
+    padding:4px 10px;
+    display:flex;
+    flex-wrap: nowrap;
+    padding:10px;
+}
+
+input{
+    background-color: transparent;
+    border:1px solid #B8BCCC;
+    width:80%;
+    height: 40px;
+    padding:0 40px;
+    margin-left: -30px;;
+    color: #B8BCCC;
+    font-size: 18px;
+}
+
+.results{
+    display: flex;
+    
+    margin:10px;
+}
+
+.card{
+    color:#B8BCCC;
+    background-color: #575A85;
+    font-weight: 400;
+    width:40%;
+    margin: 10px;
+    padding:10px;
+}
+
+.card div{
+    background-color: #575A85;
+}
+
+#ip-address, #lat, #city, #organisation, #long, #region, #hostname, #timezone, #date-time, #pincode, #message{
+    display: flex;
+    padding:4px;
+    margin:2px;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* <div id="ip-address"></div>
+        <div class="other-info">
+            <div id="lat"></div>
+            <div id="city"></div>
+            <div id="organisation"></div>
+            <div id="long"></div>
+            <div id="region"></div>
+            <div id="hostname"></div> */
+
+/* <div class="card">
+            <div>Name : ${o.Name}</div>
+            <div>Branch Type : ${o.BranchType}</div>
+            <div>Delivery Status : ${o.DeliveryStatus}</div>
+            <div>District : ${o.District}</div>
+            <div>Division : ${o.Division}</div>
+          </div>`; */

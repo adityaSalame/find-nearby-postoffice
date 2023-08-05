@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearby Postoffice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="info">
+        <div id="ip-address"></div>
+        <div class="other-info">
+            <div id="lat"></div>
+            <div id="city"></div>
+            <div id="organisation"></div>
+            <div id="long"></div>
+            <div id="region"></div>
+            <div id="hostname"></div>
+        </div>
+    </div>
+    <div id="iframe" class="iframe">
+       <div class="iframe-title">Your Current Location</div>
+    </div>
+    <div class="more-info">
+        <div class="moreinfo-title">More Information About You</div>
+        <div id="timezone"></div>
+        <div id="date-time"></div>
+        <div id="pincode"></div>
+        <div id="message"></div>
+
+    </div>
+    <div class="nearby">
+        <div class="neartitle">Post Offices Near You</div>
+        <div class="search-conatiner">
+            <img src="./magnifying-glass.png" alt="img">
+            <input id="search-input" type="text" placeholder="Search By Name">
+        </div>
+        <div id="results" class="results">
+
+        </div>
+    </div>
+   <script src="./script.js"></script> 
+</body>
+</html>
